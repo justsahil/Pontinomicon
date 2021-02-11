@@ -22,7 +22,7 @@
     ---
     <optional term elaboration>
     ```
-</details>
+    </details>
 
 ## Contents
 
