@@ -22,7 +22,6 @@
     ---
     <optional term elaboration>
     ```
-    </details>
 
 ## Contents
 
