@@ -1,6 +1,6 @@
  # Player Roster
  
-{% assign players = "* @macterra @justsahil" | remove "*" | trim | remove "@" | split ", " %}
+{% assign players = "* @macterra @justsahil" | remove "*" | strip | split " " %}
 {% for player in players %}
- - {{player}}
+ {{player}}
 {% endfor %}
