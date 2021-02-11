@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate
-markdown: kramdown
+markdown: GFM
 title: Pontinomicon
 description: A bridgey nomic
 permalink: /:collection/:title
