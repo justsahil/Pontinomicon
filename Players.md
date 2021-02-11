@@ -1,6 +1,6 @@
  # Player Roster
  
- {% assign players = site.CODEOWNERS | remove "*" | ltrim | remove "@" | split ", " %}
+ {% assign players = site.pages[0] | remove "*" | ltrim | remove "@" | split ", " %}
  {% for player in players %}
-  - [@{{player}}](https://github.com/{{player}})
+  - [{{player}}](https://github.com/{{player}})
  	{% endfor %}
