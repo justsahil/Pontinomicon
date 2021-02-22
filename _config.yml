@@ -1,7 +1,5 @@
 theme: jekyll-theme-slate
 markdown: kramdown
-kramdown:
-  parse_block_html: true
 title: Pontinomicon
 description: A bridgey nomic
 permalink: /:collection/:title
@@ -9,3 +7,6 @@ permalink: /:collection/:title
 collections:
   lexicon:
     output: true
+
+kramdown:
+  parse_block_html: true
